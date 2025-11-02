@@ -53,13 +53,16 @@ Result is uploaded to an S3 bucket using boto3.
 Users can list all previous calculations using the root / endpoint.
 
 Example_Request:
+
 POST /calc
 {
   "number_1": 10,
   "number_2": 5,
   "operator": "+"
 }
+
 Output:
+
 {
   "Sat Nov 02 11:00:00 2025": "10 + 5 = 15"
 }
