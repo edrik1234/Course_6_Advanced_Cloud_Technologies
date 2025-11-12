@@ -14,3 +14,6 @@ EXPOSE 5000
 
 # Run the main application
 CMD ["python", "__main__.py"]
+
+
+
