@@ -29,3 +29,6 @@ def monitorSensor(sensor_data, topic):
         sensor_data["count"][topic] += 1
 
         logging.info(topic + " - Received: " + str(value) + ", Total Sum: " + str(sensor_data['sum'][topic]) + ", Count: " + str(sensor_data['count'][topic]))
+
+
+
