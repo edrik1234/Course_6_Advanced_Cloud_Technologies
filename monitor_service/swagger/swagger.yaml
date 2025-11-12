@@ -24,3 +24,6 @@ paths:
               washing_avg: "200"
       x-swagger-router-controller: "controllers.sensor_reading_controller"
 definitions: {}
+
+
+
