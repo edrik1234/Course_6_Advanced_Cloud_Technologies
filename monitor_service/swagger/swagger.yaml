@@ -1,0 +1,26 @@
+
+swagger: "2.0"
+info:
+  description: "API for IoT Appliance Monitoring Service"
+  version: "1.0.0"
+  title: "IoT Monitoring API"
+basePath: "/"
+schemes:
+- "http"
+paths:
+  /avg:
+    get:
+      summary: "Get average readings for all appliances"
+      description: "Retrieve the average for each appliance."
+      operationId: "avg_get"
+      parameters: []
+      responses:
+        "200":
+          description: "Average readings by appliance"
+          schema:
+            type: "object"
+            example:
+              ac_avg: "100"
+              washing_avg: "200"
+      x-swagger-router-controller: "controllers.sensor_reading_controller"
+definitions: {}

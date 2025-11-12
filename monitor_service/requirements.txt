@@ -1,0 +1,9 @@
+connexion[uvicorn, flask, swagger-ui] >= 2.6.0
+flask >= 2.2.0, <2.3.0
+kafka-python
+flasgger
+openapi-spec-validator
+python_dateutil == 2.6.0
+setuptools >= 21.0.0
+swagger-ui-bundle >= 0.0.2
+uvicorn
