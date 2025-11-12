@@ -15,3 +15,7 @@ def avg_get():
         data[appliance] = str(calculate_average(sensor_data, appliance))
     
     return jsonify(data)
+
+
+
+
