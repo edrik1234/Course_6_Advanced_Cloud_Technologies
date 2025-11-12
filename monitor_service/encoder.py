@@ -17,3 +17,8 @@ class CustomJSONEncoder(JSONEncoder):
                 dikt[attr] = value
             return dikt
         return super().default(o)
+
+
+
+
+
