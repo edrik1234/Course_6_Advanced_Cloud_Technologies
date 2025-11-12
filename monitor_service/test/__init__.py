@@ -14,3 +14,6 @@ class BaseTestCase(TestCase):
         app.app.json_encoder = JSONEncoder
         app.add_api('swagger.yaml')
         return app.app
+
+
+
