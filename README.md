@@ -7,23 +7,38 @@ Each service computes the average value of its metric and exposes it through a R
 The entire system runs under Docker Compose, using Kafka for communication and Zookeeper for coordination.
 
 Technologies Used:
-• Kafka. 
-• Zookeeper. 
-• REST API. 
-• Swagger / OpenAPI. 
+
+• Kafka.
+
+• Zookeeper.
+
+• REST API.
+
+• Swagger / OpenAPI.
+
 • Docker & Docker-Compose. 
+
 • Python. 
+
 • Connexion.
 
 Dependencies:
-connexion[uvicorn, flask, swagger-ui] >= 2.6.0. 
+• connexion[uvicorn, flask, swagger-ui] >= 2.6.0. 
+
 • flask >= 2.2.0, <2.3.0. 
+
 • kafka-python. 
+
 • flasgger. 
+
 • openapi-spec-validator. 
+
 • python_dateutil == 2.6.0. 
+
 • setuptools >= 21.0.0. 
-• swagger-ui-bundle >= 0.0.2. 
+
+• swagger-ui-bundle >= 0.0.2.
+
 • uvicorn.
 
 🔧 Common Issues & Solutions:
